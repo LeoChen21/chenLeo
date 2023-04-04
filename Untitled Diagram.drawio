@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T19:20:09.452Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.1.4" etag="M6W5LAed1tISrKHb5qV4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T19:27:39.452Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="iAaCXl2Semuy45SVvweN" version="21.1.4" type="github">
   <diagram name="Page-1" id="kjlQmZi9r37JtP8QVC5k">
-    <mxGraphModel>
+    <mxGraphModel dx="1360" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WCnC0Boj_QlMHg6JY355-2" value="scankey" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WCnC0Boj_QlMHg6JY355-3" value="module scankey(&#xa;  input logic clk, rst,&#xa;  input logic [19:0] in,&#xa;  output logic strobe,&#xa;  output logic [4:0] out&#xa;);&#xa;&#xa;  logic [1:0] delay;&#xa;&#xa;  always_ff @ (posedge clk, posedge rst) begin&#xa;    if(rst) begin&#xa;      delay &lt;= 0;&#xa;    end&#xa;    else begin&#xa;      delay &lt;= (delay &lt;&lt; 1) | {1&#39;b0, |(in)};&#xa;    end&#xa;  end&#xa; &#xa;  assign strobe = delay[1];&#xa; &#xa;  assign  out[0] = in[1] | in[3] | in[5] | in[7] | in[9] | in[11] | in[13] | in[15] | in[17] | in[19];&#xa;  assign  out[1] = in[2] | in[3] | in[6] | in[7] | in[10] | in[11] | in[14] | in[15] | in[18] | in[19];&#xa;  assign  out[2] = in[4] | in[5] | in[6] | in[7] | in[12] | in[13] | in[14] | in[15];&#xa;  assign  out[3] = in[8] | in[9] | in[10] | in[11] | in[12] | in[13] | in[14] | in[15];&#xa;  assign  out[4] = in[16] | in[17] | in[18] | in[19];&#xa;&#xa;endmodule" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="430" height="430" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
