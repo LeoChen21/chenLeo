@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T19:18:08.940Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" version="21.1.4" etag="aU7AZTzWXngikpg1W_BS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T19:20:19.625Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="aqP0Ay_R5gwRlnlk5pV_" version="21.1.4" type="github">
   <diagram name="Page-1" id="VIp-ohU5_ON5eohQz-mk">
-    <mxGraphModel>
+    <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-1" value="controller" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_rs_flip-flop;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-3" value="rst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-4" value="clk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZwBeuifvnBXhR3lMWHaM-5" target="ZwBeuifvnBXhR3lMWHaM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;if&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(set_edit) &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;            mode &amp;lt;= EDIT;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;end&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;else&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(set_play) &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;            mode &amp;lt;= PLAY;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;end&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;else&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(set_raw) &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;            mode &amp;lt;= RAW;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;end&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZwBeuifvnBXhR3lMWHaM-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-6" value="set_edit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZwBeuifvnBXhR3lMWHaM-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-9" value="set_play" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZwBeuifvnBXhR3lMWHaM-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-11" value="set_raw" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZwBeuifvnBXhR3lMWHaM-12" value="mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
