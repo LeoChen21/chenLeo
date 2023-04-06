@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T17:17:41.712Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" version="21.1.4" etag="1qiANYUYMOQxN6qYNYnZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T17:19:32.783Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="c9hkw6q7wxSWQaQF8CJf" version="21.1.4" type="github">
   <diagram name="Page-1" id="FkmUvxZcMQ9W1MFedN3p">
-    <mxGraphModel>
+    <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TZWO4BRQF0HmKNqjZzxb-1" value="sequencer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWO4BRQF0HmKNqjZzxb-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_rs_flip-flop;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWO4BRQF0HmKNqjZzxb-3" value="&lt;div&gt;clk&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWO4BRQF0HmKNqjZzxb-4" value="rst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWO4BRQF0HmKNqjZzxb-5" value="&lt;div&gt;//seq_out shift left&lt;br&gt;&lt;/div&gt;&lt;div&gt;seq_out &lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWO4BRQF0HmKNqjZzxb-6" value="&lt;div&gt;//seq_out shift right&lt;br&gt;&lt;/div&gt;&lt;div&gt;seq_out &lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
