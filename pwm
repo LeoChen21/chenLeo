@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T19:30:52.172Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="WphLmy2XeGH0kC-gXC73" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T19:31:13.260Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="8bcmSiQ2xWfAfuQq5XSe" version="21.1.4" type="github">
   <diagram name="Page-1" id="eZdgeKsqHlSohcBSzDwH">
     <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,6 +6,15 @@
         <mxCell id="1" parent="0" />
         <mxCell id="qN_gw1VroX8AhyxczhFw-1" value="pwm" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qN_gw1VroX8AhyxczhFw-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_rs_flip-flop;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qN_gw1VroX8AhyxczhFw-3" value="rst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qN_gw1VroX8AhyxczhFw-4" value="clk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
